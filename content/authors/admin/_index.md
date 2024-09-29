@@ -120,5 +120,3 @@ languages:
 ---
 
 ## About Me
-
-In my research, I explore the impact of language on cultural evolution using experimental and computational approaches. My PhD work investigated the neurocognitive foundations of cumulative technological culture, examining how human tools are transmitted and understood.

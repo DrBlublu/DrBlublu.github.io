@@ -35,11 +35,9 @@ sections:
       title: '📚 My Research'
       subtitle: ''
       text: |-
-        Use this area to speak to your mission. I'm a research scientist in the Moonshot team at DeepMind. I blog about machine learning, deep learning, and moonshots.
-
-        I apply a range of qualitative and quantitative methods to comprehensively investigate the role of science and technology in the economy.
-        
-        Please reach out to collaborate 😃
+      In my research, I explore the impact of language on cultural evolution using experimental and computational approaches. My PhD work investigated the neurocognitive foundations of cumulative technological culture, examining how human tools are transmitted and understood.
+      
+      Currently, my research focuses on the hypothesis that language enables us to convey our mental models of the world, thereby facilitating cultural evolution. I use reinforcement learning frameworks and large language models to study how written advice and communication enhance culture over generations. This work aims to illuminate the processes by which language shapes our cultural and adaptive behaviours.
     design:
       columns: '1'
   - block: collection
