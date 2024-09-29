@@ -56,14 +56,14 @@ education:
     button:
       text: 'Read Thesis (FR)'
       url: 'https://theses.fr/2023LYO20028'
-  - area: MEng Artificial Intelligence
-    institution: Massachusetts Institute of Technology
-    date_start: 2016-01-01
-    date_end: 2020-12-31
-  - area: BSc Artificial Intelligence
-    institution: Massachusetts Institute of Technology
-    date_start: 2016-01-01
-    date_end: 2020-12-31
+  - area: MSc Cognitive Sciences
+    institution: Université Lumière Lyon 2
+    date_start: 2017-09-01
+    date_end: 2019-06-01
+  - area: BSc Cognitive Sciences
+    institution: Université Lumière Lyon 2
+    date_start: 2014-01-01
+    date_end: 2017-06-01
 
 # Skills
 # Add your own SVG icons to `assets/media/icons/`
