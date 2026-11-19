@@ -4,7 +4,7 @@ collection: publications
 category: preprints
 permalink: /publication/2026-X-X-transmission-model
 excerpt: 'This paper is about the number 1. The number 2 is left for future work.'
-date: TBD
+date: 2026-01-01
 venue: 'PsyArXiv'
 slidesurl: ''
 paperurl: 'https://doi.org/10.31234/osf.io/6u32q_v2'
