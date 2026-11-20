@@ -11,23 +11,26 @@ author_profile: true
 
 {% include base_path %}
 
-<!-- New style rendering if publication categories are defined -->
 {% if site.publication_category %}
-  {% for category in site.publication_category  %}
-    {% assign title_shown = false %}
-    {% for post in site.publications reversed %}
-      {% if post.category != category[0] %}
-        {% continue %}
-      {% endif %}
-      {% unless title_shown %}
-        <h2>{{ category[1].title }}</h2><hr />
-        {% assign title_shown = true %}
-      {% endunless %}
-      {% include archive-single.html %}
-    {% endfor %}
+  {% for category in site.publication_category %}
+    {% assign cat_key = category[0] %}
+    {% assign in_category = site.publications | where: "category", cat_key %}
+    {% assign pinned = in_category | where_exp: "p", "p.order" | sort: "order" %}
+    {% assign others = in_category | where_exp: "p", "p.order == nil" | sort: "date" | reverse %}
+    {% assign ordered = pinned | concat: others %}
+
+    {% if ordered.size > 0 %}
+      <h2>{{ category[1].title }}</h2><hr />
+      {% for post in ordered %}
+        {% include archive-single.html %}
+      {% endfor %}
+    {% endif %}
   {% endfor %}
 {% else %}
-  {% for post in site.publications reversed %}
+  {% assign pinned = site.publications | where_exp: "p", "p.order" | sort: "order" %}
+  {% assign others = site.publications | where_exp: "p", "p.order == nil" | sort: "date" | reverse %}
+  {% assign ordered = pinned | concat: others %}
+  {% for post in ordered %}
     {% include archive-single.html %}
   {% endfor %}
 {% endif %}
