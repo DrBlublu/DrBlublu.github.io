@@ -94,12 +94,12 @@ publication_category:
 
 # Teaching Category - The following the list of teaching categories and their heading
 teaching_category:
+  - type: "Lecture"
+    title: "Lectures"
   - type: "Master course"
     title: "Master courses"
   - type: "Undergraduate course"
     title: "Undergraduate courses"
-  - type: "Lecture"
-    title: "Lectures"
 
 # Site Settings
 teaser                   :  # filename of teaser fallback teaser image placed in /images/ for social media previews
@@ -233,16 +233,16 @@ kramdown:
 # These settings control the types of collections used by the template
 collections:
   teaching:
-    output: true
+    output: false
     permalink: /:collection/:path/
   publications:
-    output: true
+    output: false
     permalink: /:collection/:path/
   portfolio:
-    output: true
+    output: false
     permalink: /:collection/:path/
   talks:
-    output: true
+    output: false
     permalink: /:collection/:path/
 
 
