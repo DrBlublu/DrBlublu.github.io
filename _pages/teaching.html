@@ -7,6 +7,12 @@ author_profile: true
 
 {% include base_path %}
 
-{% for post in site.teaching reversed %}
-  {% include archive-single.html %}
+{% for category in site.teaching_category %}
+  {% assign courses = site.teaching | where: "type", category.type | sort: "date" | reverse %}
+  {% if courses.size > 0 %}
+    <h2>{{ category.title }}</h2><hr />
+    {% for post in courses %}
+      {% include archive-single.html %}
+    {% endfor %}
+  {% endif %}
 {% endfor %}

@@ -92,6 +92,15 @@ publication_category:
   book-chapters:
     title: 'Book chapters'
 
+# Teaching Category - The following the list of teaching categories and their heading
+teaching_category:
+  - type: "Master course"
+    title: "Master courses"
+  - type: "Undergraduate course"
+    title: "Undergraduate courses"
+  - type: "Lecture"
+    title: "Lectures"
+
 # Site Settings
 teaser                   :  # filename of teaser fallback teaser image placed in /images/ for social media previews
 breadcrumbs              : false # true, false (default)
