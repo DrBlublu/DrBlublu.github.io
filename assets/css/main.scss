@@ -36,3 +36,12 @@
     "layout/archive",
     "layout/sidebar"
 ;
+
+.archive__item:hover .archive__item-title,
+.archive__item-title:hover {
+  text-decoration: none;
+}
+
+.archive__item-title {
+  cursor: default;
+}
