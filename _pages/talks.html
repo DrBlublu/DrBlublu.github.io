@@ -11,6 +11,12 @@ author_profile: true
 
 {% endif %}
 
-{% for post in site.talks reversed %}
-  {% include archive-single-talk.html %}
+{% for category in site.talk_category %}
+  {% assign items = site.talks | where: "type", category.type | sort: "date" | reverse %}
+  {% if items.size > 0 %}
+    <h2>{{ category.title }}</h2><hr />
+    {% for post in items %}
+      {% include archive-single-talk.html %}
+    {% endfor %}
+  {% endif %}
 {% endfor %}
