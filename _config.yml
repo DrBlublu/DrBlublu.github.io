@@ -101,6 +101,16 @@ teaching_category:
   - type: "Undergraduate course"
     title: "Undergraduate courses"
 
+# Talks Category - The following the list of talks categories and their heading
+talk_category:
+  - type: "Talk"
+    title: "Talks"
+  - type: "Workshop"
+    title: "Workshops"
+  - type: "Poster"
+    title: "Posters"
+
+
 # Site Settings
 teaser                   :  # filename of teaser fallback teaser image placed in /images/ for social media previews
 breadcrumbs              : false # true, false (default)
