@@ -9,6 +9,6 @@ redirect_from:
 
 {% include base_path %}
 
-<p><a href="{{ base_path }}/files/CV_Alexandre_Bluet.pdf" download>Download my CV (PDF)</a></p>
+<p><a href="{{ base_path }}/files/BLUET_CV.pdf" download>Download my CV (PDF)</a></p>
 
-<iframe src="{{ base_path }}/files/CV_Alexandre_Bluet.pdf" width="100%" height="900" style="border:none;"></iframe>
+<iframe src="{{ base_path }}/files/BLUET_CV.pdf" width="100%" height="900" style="border:none;"></iframe>
