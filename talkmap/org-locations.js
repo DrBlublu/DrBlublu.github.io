@@ -1,22 +1,32 @@
 var addressPoints = [
   [
-    "Tutorial 1 on Relevant Topic in Your Field<br />UC-Berkeley Institute for Testing Science; Berkeley, CA, USA",
-    37.8708393,
-    -122.272863
+    "The Neurocognitive Bases of Cumulative Technological Culture: Insight From Computational Modeling<br />ESCoP 2022; Lille, France",
+    50.6365654,
+    3.0635282
   ],
   [
-    "Talk 2 on Relevant Topic in Your Field<br />London School of Testing; London, UK",
-    51.5074456,
-    -0.1277653
+    "Impact of technical reasoning, theory of mind and population size on cumulative technological culture: insights from a model of micro-societies<br />Cultural Evolution Society Conference; Aarhus University, Aarhus, Denmark",
+    56.1670905,
+    10.2026177
   ],
   [
-    "Talk 1 on Relevant Topic in Your Field<br />UC San Francisco, Department of Testing; San Francisco, CA, USA",
-    37.7879363,
-    -122.4075201
+    "ISS Workshop: Agent-based Simulations (invited Speaker)<br />Association for Psychological Science conference; Barcelona, Spain",
+    41.3825802,
+    2.177073
   ],
   [
-    "Conference Proceeding talk 3 on Relevant Topic in Your Field<br />Testing Institute of America 2014 Annual Conference; Los Angeles, CA, USA",
-    34.0536923,
-    -118.2427676
+    "The technical-reasoning network is recruited when people observe others make or teach how to make tools: An fMRI study<br />ESCoP 2023; Porto, Portugal",
+    41.1502195,
+    -8.6103497
+  ],
+  [
+    "Language allows cultural evolution to improve mental models<br />6th Multidisciplinary Conference on Reinforcement Learning and Decision Making; Trinity COllege, Dublin, Ireland",
+    53.3453299,
+    -6.2582726
+  ],
+  [
+    "Language allows cultural evolution to improve world models<br />Cultural Evolution Society Conference; Durham University, Durham, United Kingdom",
+    54.7672268,
+    -1.5721956
   ]
 ];
